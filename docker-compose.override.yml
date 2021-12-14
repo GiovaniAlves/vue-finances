@@ -4,5 +4,9 @@ services:
 
   traefik:
     command: --api --docker --docker.exposedbydefault=false
-    labels:
-      - traefik.frontend.rule=Host:traefik.localhost
+  
+  api:
+    command: npm run dev
+    volumes:
+      - ./deps/back:/usr/app
+      - /usr/app/node_modules
