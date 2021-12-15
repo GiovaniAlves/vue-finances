@@ -8,6 +8,8 @@ services:
   web:
     build:
       target: dev-stage
+    labels:
+      - traefik.port=8000
     command: 
       npm run serve
     volumes:
