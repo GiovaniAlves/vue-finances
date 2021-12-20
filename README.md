@@ -45,7 +45,7 @@ A aplicação é um Gerenciador de Finanças Pessoais que usa as seguintes tecno
 ### Teste localmente
 Se quiser testar o projeto localmente basta seguir estes passos:
 
-1. Clone o repositório usando HTTPS
+1. Clone o repositório usando HTTPS\
 `git clone https://github.com/plinionaves/vue-finances.git`
 
 2. Acesse o diretório criado para o projeto\
