@@ -61,7 +61,7 @@ url = https://github.com/plinionaves/vue-finances-back.git`
 `git submodule init`
 5. Rode o comando abaixo para "puxar" o código fonte dos submódulos:\
 `git submodule update`
-6. Crie um arquivo .env na raiz do projeto e configure as seguintes variáveis de ambiente:\
+6. Crie um arquivo .env na raiz do projeto e configure as seguintes variáveis de ambiente:
 ```
 NODE_ENV=development
 
@@ -93,5 +93,5 @@ npm i -g prisma@1.28
 
 cd deps/back
 
-prisma deploy -e ../../.env`
+prisma deploy -e ../../.env
 ```
